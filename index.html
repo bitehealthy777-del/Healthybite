@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🥗 Healthybite Diet Planner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🥗 Healthybite Diet Planner</h1>
+  <p>Your personalized nutrition guide for a healthier lifestyle</p>
+</header>
+
+<main>
+  <!-- Step 1: Gender -->
+  <section class="form-section" id="gender-section">
+    <form id="genderForm">
+      <label for="gender">Select Your Gender:</label>
+      <select id="gender" required>
+        <option value="" disabled selected>Select Gender</option>
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+      </select>
+      <button type="submit">Next</button>
+    </form>
+  </section>
+
+  <!-- Step 2: Goal -->
+  <section class="form-section hidden" id="goal-section">
+    <form id="goalForm">
+      <label for="goal">Choose Your Goal:</label>
+      <select id="goal" required></select>
+      <button type="submit">Get My Plan</button>
+    </form>
+  </section>
+
+  <!-- Result -->
+  <section id="result" class="result-section"></section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Healthybite | Stay healthy, stay strong 💚</p>
+  <p class="credit"><strong>Designed by SANIKA SHARAD KASAR</strong></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
